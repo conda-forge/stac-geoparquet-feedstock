@@ -1,11 +1,11 @@
-About stac-geoparquet
-=====================
+About stac-geoparquet-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stac-geoparquet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/stac-geoparquet/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/stac-geoparquet-feedstock/blob/main/LICENSE.txt)
 
 Summary: stac-geoparquet
 
