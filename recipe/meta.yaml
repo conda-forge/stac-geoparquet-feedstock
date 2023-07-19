@@ -23,6 +23,7 @@ requirements:
     - flit-core
   run:
     - geopandas
+    - packaging
     - pandas
     - pyarrow
     - pystac
