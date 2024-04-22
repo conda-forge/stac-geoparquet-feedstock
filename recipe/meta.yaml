@@ -22,7 +22,9 @@ requirements:
     - python >=3.8
     - flit-core
   run:
+    - ciso8601
     - geopandas
+    - packaging
     - pandas
     - pyarrow
     - pystac
