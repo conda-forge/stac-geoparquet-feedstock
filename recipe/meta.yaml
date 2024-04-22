@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - flit-core
+    - hatchling
   run:
     - ciso8601
     - geopandas
