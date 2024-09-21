@@ -23,7 +23,6 @@ requirements:
     - hatchling
   run:
     - ciso8601
-    - ciso8601
     - deltalake
     - geopandas
     - packaging
@@ -31,9 +30,10 @@ requirements:
     - pyarrow >=16
     - pyproj
     - pystac
+    - python >=3.8
     - shapely
     - orjson
-    - typing-extensions  # [py<311]
+    - typing-extensions
 
 test:
   imports:
