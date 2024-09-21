@@ -20,14 +20,20 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - flit-core
+    - hatchling
   run:
+    - ciso8601
+    - ciso8601
+    - deltalake
     - geopandas
+    - packaging
     - pandas
-    - pyarrow
+    - pyarrow >=16
+    - pyproj
     - pystac
-    - python >=3.8
     - shapely
+    - orjson
+    - typing-extensions  # [py<311]
 
 test:
   imports:
