@@ -12,14 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - pc-geoparquet = stac_geoparquet.cli:main
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
     - hatch-vcs
   run:
@@ -31,7 +31,7 @@ requirements:
     - pyarrow >=16
     - pyproj
     - pystac
-    - python >=3.8
+    - python >={{ python_min }}
     - shapely
     - orjson
     - typing-extensions
@@ -43,6 +43,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/stac-geoparquet/
