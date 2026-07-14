@@ -1,5 +1,5 @@
 {% set name = "stac-geoparquet" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/stac_geoparquet-{{ version }}.tar.gz
-  sha256: e32ab2f02254cf2b07b1a6e59e97c38ba898ed778953c633fc0816a00323b863
+  sha256: 191203fabe6a8a3478f61cf0b465356ebb5757c16b79da13286505d8223bcb32
 
 build:
   noarch: python
